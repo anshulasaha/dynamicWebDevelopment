@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Journaling in JSON</title>
+    <script src="main.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Journaling in JSON</h1>
+
+    <div id="formmm">
+      <form method="POST" action="/add-moment">
+        <input type="text" name="event" placeholder="What happened?" />
+        <input type="text" name="felt" placeholder="How did you feel?" />
+        <input type="number" name="rating" placeholder="1–10" />
+        <input type="submit" value="Add moment" />
+      </form>
+    </div>
+  </body>
+</html>
