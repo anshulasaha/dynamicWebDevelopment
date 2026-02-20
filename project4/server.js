@@ -1,5 +1,5 @@
-const express = require("express"); //just importing the express library
-const app = express(); //my application is an express aplication
+const express = require("express"); 
+const app = express(); 
 
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
@@ -25,7 +25,6 @@ app.get("/all-moments", (req, res) => {
   res.json({ moments: moments });
 });
 
-//right after we do const express and const app
 app.listen(8000, () => {
   console.log("server running on 8000");
 });
