@@ -1,0 +1,13 @@
+This is where I will be keeping track of things here, 
+
+For now I have an index page - Thsi is the landing page with the reponses 
+guestbook.html - This is the main page for taking in the reponses
+
+
+
+inside server.js: 
+I am posting on add-care
+I am pushing carePoints (OBJECT)
+I am psuhing these atributes - careOne: req.body.careOne,
+    careTwo: req.body.careTwo,
+

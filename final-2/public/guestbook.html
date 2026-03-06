@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>but i do fucking care</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="explanation">
+      <p>
+        This project is a simple participatory website that collects pairs of things people care
+        about. I was interested in the fact that care is never singular or stable, and that the
+        combination of two concerns can often feel more honest, strange, or funny than one alone.
+        Each submission is stored in a database and appears on the site, creating an evolving public
+        archive of attachments, questions, and unresolved concerns. This archive treats care as
+        something collective, layered, and sometimes unexpectedly absurd to look at all together.
+      </p>
+    </div>
+
+    <div id="formmm">
+      <form method="POST" action="/add-care">
+        <div class="fieldGroup">
+          <label for="careOne">What do you care about?</label>
+          <input type="text" id="careOne" name="careOne" required />
+        </div>
+
+        <div class="fieldGroup">
+          <label for="careTwo">What do you really really care about? (be honest now)</label>
+          <input type="text" id="careTwo" name="careTwo" required />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="links">
+      <h3>
+        <a href="/entriesView.html" target="_blank">See all entries</a>
+      </h3>
+    </div>
+
+    <!-- <div>
+      <a href="/all-entries" target="_blank">See raw JSON</a>
+    </div> -->
+  </body>
+</html>

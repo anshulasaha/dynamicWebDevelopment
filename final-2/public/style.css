@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./MyFont.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+mark {
+  background-color: yellow;
+}
+
+.mainTitle {
+  position: relative;
+  z-index: 2;
+}
+
+.mainTitle,
+h1 {
+  color: blue;
+  font-family: "MyFont", sans-serif;
+  font-size: clamp(3rem, 10vmax, 12rem);
+  text-align: right;
+  padding-right: 1rem;
+  letter-spacing: -0.03em;
+  margin-top: 50%;
+  margin-bottom: 1rem;
+  line-height: 0.875;
+  hyphens: auto;
+  margin-top: 35rem;
+  margin-bottom: 2rem;
+}
+
+.links {
+  position: relative;
+  z-index: 2;
+}
+
+.links,
+h3 {
+  font-family: "MyFont", sans-serif;
+  font-size: clamp(1.5rem, 1vmax, 12rem);
+}
+
+#caresLayer {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.indexCares {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100vw;
+  padding: 2rem;
+  box-sizing: border-box;
+
+  transform: rotate(90deg) translateY(-100%);
+  transform-origin: top left;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 0.75rem 1rem;
+
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "MyFont", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+.indexCares p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.indexCares span {
+  display: inline;
+  margin-left: 0.35rem;
+}
+
+.indexCares mark {
+  display: inline-block;
+  background-color: yellow;
+  color: black;
+  padding: 0.05em 0.2em;
+}
+
+.entriesPage {
+  background: white;
+  padding: 2rem;
+}
+
+.entriesPage #cares {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.entriesPage .careCard {
+  width: 320px;
+  min-height: 150px;
+  border: 8px solid blue;
+  border-radius: 40px;
+  padding: 1.5rem 2rem;
+  box-sizing: border-box;
+  background: white;
+}
+
+.entriesPage .careNumber,
+.entriesPage .careOne,
+.entriesPage .careTwo {
+  margin: 0;
+  font-family: "MyFont", sans-serif;
+  color: #555;
+}
+
+.entriesPage .careNumber {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.entriesPage .careOne,
+.entriesPage .careTwo {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+body.entriesPage {
+  overflow: auto;
+}
+
+.explanation,
+h3 {
+  font-family: "MyFont", sans-serif;
+  font-size: clamp(1.5rem, 1vmax, 12rem);
+  padding: 1.5rem 2rem;
+}
+
+#formmm {
+  font-family: "MyFont", sans-serif;
+  font-size: clamp(1.5rem, 1vmax, 12rem);
+  padding: 1.5rem 2rem;
+}
+
+#formmm form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 700px;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.fieldGroup label {
+  font-family: "MyFont", sans-serif;
+  font-size: 1.2rem;
+}
+
+.fieldGroup input {
+  width: 100%;
+  font-family: "MyFont", sans-serif;
+  font-size: 1.2rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid black;
+  background: white;
+  box-sizing: border-box;
+}
+
+#formmm button {
+  width: fit-content;
+  font-family: "MyFont", sans-serif;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.2rem;
+  background: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
