@@ -1,0 +1,12 @@
+#important {
+  color: aquamarine;
+  /* background-color: #e59500; */
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

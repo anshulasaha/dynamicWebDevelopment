@@ -1,0 +1,13 @@
+body {
+  background-color: lavenderblush;
+  margin: 0;
+  overflow: hidden;
+}
+
+form {
+  display: flex;
+}
+
+form {
+  display: flex; /* one of the 5 display types and it goes to the parent */
+}

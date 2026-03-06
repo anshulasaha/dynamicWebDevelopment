@@ -1,0 +1,32 @@
+Order of operations 
+
+New Project
+
+1. npm init -> create node project, package.json 
+2. install Dependencies 
+3. create server.js
+4. nodemon server.js -> local only
+
+once the project is completed - upload to github - git status, add, commit and push 
+upload to droplet via cyber duck 
+test server using node server.js (not permanent running)
+then pm2 start server.js
+
+INTRODUCTION TO DATABASEEEE 
+
+GET = Find 
+POST = insert 
+PUT = update 
+DELETE = remove 
+
+these are the exact things happening in a restful database 
+
+ALWAYS call init() inside windows.onload()
+
+body > div is how you are manipulating all the blocks and they are being affected 
+
+
+
+
+
+

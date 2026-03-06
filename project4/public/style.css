@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./MyFont.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+body {
+  background-color: #f5efd9;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+  padding: 2rem 4rem;
+}
+
+h1 {
+  font-family: "MyFont", sans-serif;
+  font-size: clamp(3rem, 12vmax, 12rem);
+  text-align: center;
+  letter-spacing: -0.03em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 0.875;
+  hyphens: auto;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+#formmm {
+  align-content: center;
+  padding-left: 360px;
+}

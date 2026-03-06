@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Noise Background Generator</title>
+    <script src="main.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Noise Background Generator</h1>
+
+    <div id="controls">
+      <p>
+        Red:
+        <input id="r" type="number" min="0" max="255" value="80" />
+      </p>
+      <p>
+        Green:
+        <input id="g" type="number" min="0" max="255" value="160" />
+      </p>
+      <p>
+        Blue:
+        <input id="b" type="number" min="0" max="255" value="200" />
+      </p>
+
+      <p>
+        Tiles (1-50):
+        <input id="tiles" type="number" min="1" max="50" value="25" />
+      </p>
+
+      <p>
+        Tile Size (1-20):
+        <input id="tileSize" type="number" min="1" max="20" value="7" />
+      </p>
+
+      <p>
+        Border Width (0-15):
+        <input id="borderWidth" type="number" min="0" max="15" value="0" />
+      </p>
+
+      <p>
+        Mode:
+        <select id="mode">
+          <option value="1">Brightness</option>
+          <option value="2">Around</option>
+        </select>
+      </p>
+
+      <button id="go">Generate</button>
+      <button id="random">Randomize</button>
+    </div>
+
+    <div id="container">
+      <img id="preview" alt="noise preview" />
+    </div>
+  </body>
+</html>

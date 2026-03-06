@@ -1,0 +1,42 @@
+/* the selector we use is body */
+
+body {
+  background-color: burlywood;
+  height: 100%;
+}
+
+p {
+  font-size: 24px;
+}
+
+/* we grab a class selecter by .className */
+
+.blueText {
+  color: blue;
+}
+
+/* we grab a id selecter by #idName and it can only be used once */
+#pinkText {
+  color: palevioletred;
+}
+
+#pinkText {
+  background-color: bisque;
+}
+
+/* NOTE The more specific you get with the slector, it gets higher priority */
+
+/* in-line is horizontally and block is vertically */
+
+/* span is an in-line element horizontally arranged  */
+/* paragrph is a block element and is vertically arranged */
+
+.parent {
+}
+
+.child {
+}
+
+/* justify-content - arranges them one next to another */
+
+/* justify content and align must come after padding and stuff, and also all of these apply to the parent and not the child  */
